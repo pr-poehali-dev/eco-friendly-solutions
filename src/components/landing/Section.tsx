@@ -2,9 +2,16 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import type { SectionProps } from "@/types"
 
-export default function Section({ id, title, subtitle, content, customContent, isActive, showButton, buttonText }: SectionProps) {
+export default function Section({ id, title, subtitle, content, customContent, backgroundImage, isActive, showButton, buttonText }: SectionProps) {
   return (
     <section id={id} className="relative h-screen w-full snap-start flex flex-col justify-center p-8 md:p-16 lg:p-24 overflow-y-auto">
+      {backgroundImage && (
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        />
+      )}
+      <div className="relative z-10">
       {subtitle && (
         <motion.div
           className="mb-12"
@@ -58,6 +65,7 @@ export default function Section({ id, title, subtitle, content, customContent, i
           </Button>
         </motion.div>
       )}
+      </div>
     </section>
   )
 }

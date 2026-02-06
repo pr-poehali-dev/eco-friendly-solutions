@@ -6,6 +6,7 @@ export const sections = [
     subtitle: <Badge variant="outline" className="text-white border-white">Бесплатный интенсив 17–19 февраля</Badge>,
     title: "СМЕРТЬ ТАЛАНТА: переходим на математику рекламного кадра",
     content: 'Узнайте формулу дорогого снимка и начните управлять светом, формой и своим чеком, даже если всегда считали, что у вас нет изюминки и чутья.\n\nЗа 3 дня превратим вашу съемку в предсказуемый творческий бизнес.',
+    backgroundImage: 'https://cdn.poehali.dev/projects/5a540d62-f858-4497-a0e8-0b7163fbc2fa/files/bfdb9d31-895e-4c0a-a641-c48f1ba2c5fe.jpg',
     showButton: true,
     buttonText: 'ЗАБРАТЬ ФОРМУЛУ'
   },
@@ -66,6 +67,7 @@ export const sections = [
         <p><strong>Где:</strong> закрытые онлайн-трансляции (ссылка придет после регистрации)</p>
       </div>
     ),
+    backgroundImage: 'https://cdn.poehali.dev/projects/5a540d62-f858-4497-a0e8-0b7163fbc2fa/files/e9e9e694-11ad-425a-b8fe-a323e33580e8.jpg',
     showButton: true,
     buttonText: 'ЗАРЕГИСТРИРОВАТЬСЯ'
   },
