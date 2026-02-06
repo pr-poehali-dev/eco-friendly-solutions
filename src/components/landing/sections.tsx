@@ -12,34 +12,44 @@ export const sections = [
   {
     id: 'program',
     title: '3 дня, которые убьют в вас любителя:',
-    content: (
-      <div className="space-y-8 text-left max-w-4xl mx-auto">
-        <div className="space-y-4">
-          <h3 className="text-2xl font-bold">День 1: АНАТОМИЯ РЕКЛАМНОГО КАДРА</h3>
-          <ul className="space-y-3 text-lg opacity-90">
-            <li>— <strong>Диагностика потолка:</strong> вы узнаете, почему интуиция всегда проигрывает на сложных поверхностях и как это мешает вам брать заказы с чеком выше 50 000 ₽.</li>
-            <li>— <strong>Разбор 3 фатальных ошибок:</strong> поймете, из-за каких действий на глаз ваши кадры выглядят дешево, а свет кажется грязным даже при наличии дорогого оборудования и насадок.</li>
-            <li>— <strong>Секреты рекламного объема (МК из студии):</strong> увидите пошаговый алгоритм сборки кадра, где каждое действие совершается системно и осознанно, а не наобум.</li>
+    customContent: (
+      <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto mt-12">
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all">
+          <div className="text-[#FF4D00] text-5xl font-bold mb-4">01</div>
+          <h3 className="text-2xl font-bold text-white mb-6">АНАТОМИЯ РЕКЛАМНОГО КАДРА</h3>
+          <ul className="space-y-4 text-neutral-300">
+            <li>— <strong className="text-white">Диагностика потолка:</strong> почему интуиция мешает брать заказы с чеком выше 50 000 ₽</li>
+            <li>— <strong className="text-white">Разбор 3 фатальных ошибок:</strong> из-за каких действий кадры выглядят дешево</li>
+            <li>— <strong className="text-white">Секреты рекламного объема:</strong> пошаговый алгоритм сборки кадра из студии</li>
           </ul>
-          <p className="text-lg font-semibold mt-4">Результат дня: вы заберете готовую технологию сборки кадра и осознаете, что рекламный кадр— это не магия таланта, а точный расчет, который можно повторить 10 раз из 10.</p>
+          <div className="mt-6 pt-6 border-t border-white/10">
+            <p className="text-sm text-neutral-400"><strong className="text-white">Результат:</strong> готовая технология сборки кадра — точный расчет, который можно повторить 10 раз из 10</p>
+          </div>
         </div>
 
-        <div className="space-y-4">
-          <h3 className="text-2xl font-bold">День 2: РЕНТГЕН РЕФЕРЕНСОВ</h3>
-          <ul className="space-y-3 text-lg opacity-90">
-            <li>— <strong>Активация профессиональной насмотренности:</strong> вы научитесь за 60 секунд безошибочно определять логику создания кадра в любом референсе.</li>
-            <li>— <strong>Деконструкция люкса:</strong> мы превратим топовые кадры Chanel, Apple и мастодонтов рынка из недосягаемого искусства в понятное ТЗ, которое вы сможете реализовать в своей студии.</li>
-            <li>— <strong>Фильтр визуального шума:</strong> вы обнаружите 3 критические ошибки в анализе чужих работ, из-за которых ваши попытки повторить референс раньше превращались в дешевую копию.</li>
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all">
+          <div className="text-[#FF4D00] text-5xl font-bold mb-4">02</div>
+          <h3 className="text-2xl font-bold text-white mb-6">РЕНТГЕН РЕФЕРЕНСОВ</h3>
+          <ul className="space-y-4 text-neutral-300">
+            <li>— <strong className="text-white">Активация насмотренности:</strong> за 60 секунд определять логику создания любого кадра</li>
+            <li>— <strong className="text-white">Деконструкция люкса:</strong> превращаем Chanel и Apple в понятное ТЗ для вашей студии</li>
+            <li>— <strong className="text-white">Фильтр визуального шума:</strong> 3 критические ошибки при анализе чужих работ</li>
           </ul>
-          <p className="text-lg font-semibold mt-4">Результат дня: вы осознаете, что секретных схем не существует — есть только логика. Вы начнете видеть любой кадр насквозь и поймете, как воссоздать картинку на миллион без единой капли вдохновения.</p>
+          <div className="mt-6 pt-6 border-t border-white/10">
+            <p className="text-sm text-neutral-400"><strong className="text-white">Результат:</strong> секретных схем не существует — только логика. Видите кадр насквозь</p>
+          </div>
         </div>
 
-        <div className="space-y-4">
-          <h3 className="text-2xl font-bold">День 3: ГРАНД-РАЗБОР И ТОЧКА ПЕРЕХОДА</h3>
-          <ul className="space-y-3 text-lg opacity-90">
-            <li>— <strong>Ликвидация слепых зон:</strong> на реальных разборах ваших работ вы увидите, где именно интуиция дала осечку и превратила потенциальный рекламный шедевр в обычную проходную фотографию.</li>
-            <li>— <strong>Проектирование чека 150к+:</strong> мы составим ваш персональный пошаговый план выхода из лиги вечных самоучек в лигу системных рекламных фотографов, за которыми бренды стоят в очереди.</li>
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all">
+          <div className="text-[#FF4D00] text-5xl font-bold mb-4">03</div>
+          <h3 className="text-2xl font-bold text-white mb-6">ГРАНД-РАЗБОР И ТОЧКА ПЕРЕХОДА</h3>
+          <ul className="space-y-4 text-neutral-300">
+            <li>— <strong className="text-white">Ликвидация слепых зон:</strong> разборы ваших работ — где интуиция дала осечку</li>
+            <li>— <strong className="text-white">Проектирование чека 150к+:</strong> персональный план выхода в лигу системных фотографов</li>
           </ul>
+          <div className="mt-6 pt-6 border-t border-white/10">
+            <p className="text-sm text-neutral-400"><strong className="text-white">Результат:</strong> за вами стоят бренды в очереди</p>
+          </div>
         </div>
       </div>
     ),
