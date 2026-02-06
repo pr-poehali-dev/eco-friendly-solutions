@@ -23,7 +23,7 @@ export default function Section({ id, title, subtitle, content, customContent, b
         </motion.div>
       )}
       <motion.h2
-        className="text-4xl md:text-6xl lg:text-[5rem] xl:text-[6rem] font-bold leading-[1.1] tracking-tight max-w-4xl text-white"
+        className="text-4xl md:text-6xl lg:text-[5rem] xl:text-[6rem] font-bold leading-[1.1] tracking-tight max-w-4xl text-[#FF0000]"
         initial={{ opacity: 0, y: 50 }}
         animate={isActive ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5 }}
@@ -32,7 +32,7 @@ export default function Section({ id, title, subtitle, content, customContent, b
       </motion.h2>
       {content && (
         <motion.div
-          className="text-lg md:text-xl lg:text-2xl max-w-2xl mt-6 text-neutral-400 whitespace-pre-line"
+          className="text-lg md:text-xl lg:text-2xl max-w-2xl mt-6 text-neutral-200 whitespace-pre-line"
           initial={{ opacity: 0, y: 50 }}
           animate={isActive ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -59,7 +59,7 @@ export default function Section({ id, title, subtitle, content, customContent, b
           <Button
             variant="outline"
             size="lg"
-            className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+            className="bg-[#FF0000] text-white border-[#FF0000] hover:bg-[#CC0000] hover:border-[#CC0000] transition-colors"
           >
             {buttonText}
           </Button>

@@ -67,7 +67,7 @@ export const sections = [
         <p><strong>Где:</strong> закрытые онлайн-трансляции (ссылка придет после регистрации)</p>
       </div>
     ),
-    backgroundImage: 'https://cdn.poehali.dev/projects/5a540d62-f858-4497-a0e8-0b7163fbc2fa/files/e9e9e694-11ad-425a-b8fe-a323e33580e8.jpg',
+    backgroundImage: 'https://cdn.poehali.dev/projects/5a540d62-f858-4497-a0e8-0b7163fbc2fa/files/6f231f97-cdbd-4815-b4f8-8b303c3e763c.jpg',
     showButton: true,
     buttonText: 'ЗАРЕГИСТРИРОВАТЬСЯ'
   },
